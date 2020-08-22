@@ -1,5 +1,9 @@
-import styles from "../styles/Home.module.css";
+import Layout from "../hoc/Layout/Layout";
 
 export default function Home() {
-    return <div className={styles.container}></div>;
+    return (
+        <Layout>
+            <h1>Hello World</h1>
+        </Layout>
+    );
 }

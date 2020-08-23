@@ -1,13 +1,12 @@
 import { useState } from "react";
 // Components
 import Aux from "../Aux/Aux";
-import Header from "../../components/Header/Header";
-import SideDrawer from "../../components/Header/SideDrawer/SideDrawer";
+import Header from "../../components/Navigation/Header/Header";
+import SideDrawer from "../../components/Navigation/SideDrawer/SideDrawer";
 import Footer from "../../components/Footer/Footer";
 
 export default function Layout(props) {
     const [showSideDrawer, setShowSideDrawer] = useState(false);
-    console.log(showSideDrawer);
 
     const closeSideDrawerHandler = () => setShowSideDrawer(false);
 

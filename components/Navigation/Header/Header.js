@@ -1,9 +1,8 @@
 // Components
-import Navigation from "./Navigation/Navigation";
-import DrawerToggle from "./SideDrawer/DrawerToggle.js/DrawerToggle";
+import DrawerToggle from "../SideDrawer/DrawerToggle.js/DrawerToggle";
 // Styles
 import styled from "@emotion/styled";
-import NavigationItems from "./Navigation/NavigationItems/NavigationItems";
+import NavigationItems from "../NavigationItems/NavigationItems";
 
 export default function Header(props) {
     return (
@@ -20,7 +19,7 @@ export default function Header(props) {
 const HeaderStyled = styled.header`
     height: 56px;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     background-color: #703b09;

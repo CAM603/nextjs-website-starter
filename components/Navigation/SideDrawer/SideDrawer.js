@@ -1,6 +1,6 @@
 // Components
 import Aux from "../../../hoc/Aux/Aux";
-import NavigationItems from "../Navigation/NavigationItems/NavigationItems";
+import NavigationItems from "../NavigationItems/NavigationItems";
 import Backdrop from "../../UI/Backdrop/Backdrop";
 // Styles
 import styled from "@emotion/styled";

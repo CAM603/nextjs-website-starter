@@ -27,11 +27,18 @@ const HeaderStyled = styled.header`
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    box-sizing: border-box;
     z-index: 90;
 
     nav {
         height: 100%;
+        width: 50%;
+
+        ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 
     @media (max-width: 499px) {

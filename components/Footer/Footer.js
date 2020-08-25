@@ -1,3 +1,6 @@
+// Tools
+import Link from "next/link";
+
 // Styles
 import styled from "@emotion/styled";
 import NavigationItems from "../Navigation/NavigationItems/NavigationItems";
@@ -6,7 +9,9 @@ export default function Footer(props) {
     return (
         <FooterStyled>
             <div>
-                <p>Logo</p>
+                <Link href="/">
+                    <a>Logo</a>
+                </Link>
             </div>
             <nav>
                 <NavigationItems />
@@ -26,6 +31,5 @@ const FooterStyled = styled.footer`
     width: 100%;
     background-color: black;
     color: white;
-    height: 100px;
     padding: 20px;
 `;

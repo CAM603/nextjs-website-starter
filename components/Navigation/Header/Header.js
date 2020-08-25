@@ -1,3 +1,6 @@
+// Tools
+import Link from "next/link";
+
 // Components
 import DrawerToggle from "../SideDrawer/DrawerToggle.js/DrawerToggle";
 // Styles
@@ -8,7 +11,11 @@ export default function Header(props) {
     return (
         <HeaderStyled>
             <DrawerToggle clicked={props.toggleSideDrawerHandler} />
-            <div>Logo</div>
+            <div>
+                <Link href="/">
+                    <a>Logo</a>
+                </Link>
+            </div>
             <nav className="desktopOnly">
                 <NavigationItems />
             </nav>

@@ -1,7 +1,12 @@
+// Tools
+import Link from "next/link";
+
 export default function NavigaionItem(props) {
     return (
         <li>
-            <a>{props.children}</a>
+            <Link href={props.slug}>
+                <a>{props.children}</a>
+            </Link>
         </li>
     );
 }

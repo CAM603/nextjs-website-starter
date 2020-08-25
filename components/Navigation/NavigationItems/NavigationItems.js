@@ -1,11 +1,13 @@
+// Components
 import NavigationItem from "./NavigationItem/NavigationItem";
 
 export default function NavigationItems(props) {
     return (
         <ul>
-            <NavigationItem>One</NavigationItem>
-            <NavigationItem>Two</NavigationItem>
-            <NavigationItem>Three</NavigationItem>
+            <NavigationItem slug="/porfolio">Portfolio</NavigationItem>
+            <NavigationItem slug="/awards">Awards</NavigationItem>
+            <NavigationItem slug="/about">About</NavigationItem>
+            <NavigationItem slug="/contact">Contact</NavigationItem>
         </ul>
     );
 }

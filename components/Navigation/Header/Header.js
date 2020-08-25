@@ -38,14 +38,6 @@ const HeaderStyled = styled.header`
 
     nav {
         height: 100%;
-        width: 50%;
-
-        ul {
-            height: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
     }
 
     @media (max-width: 499px) {

@@ -4,11 +4,11 @@ import Link from "next/link";
 // Components
 import Layout from "../../hoc/Layout/Layout";
 
-export default function Awards() {
+export default function AwardsPage() {
     return (
         <Layout>
             <p>Awards</p>
-            <Link href="/awards/[name]" as="/awards/test">
+            <Link href="/awards/[name]" as="/awards/award1">
                 <p>Award 1</p>
             </Link>
             <p>Award 2</p>

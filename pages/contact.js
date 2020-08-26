@@ -15,8 +15,4 @@ export default function Contact() {
 
 const PageStyled = styled.div`
     max-width: 800px;
-
-    h1 {
-        font-size: 3rem;
-    }
 `;

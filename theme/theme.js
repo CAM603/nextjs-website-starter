@@ -12,13 +12,16 @@ export default {
     },
     breakpoints,
     variants: {
-        container: {
+        layout: {
             width: "100%",
             marginTop: "56px",
             height: "80vh",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+        },
+        container: {
+            maxWidth: 1200,
         },
     },
 };

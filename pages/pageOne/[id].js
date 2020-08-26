@@ -3,12 +3,12 @@ import { useRouter } from "next/router";
 // Components
 import Layout from "../../hoc/Layout/Layout";
 
-export default function Award() {
+export default function Item() {
     const router = useRouter();
-    const { name } = router.query;
+    const { id } = router.query;
     return (
         <Layout>
-            <p>{name}</p>
+            <p>{id}</p>
         </Layout>
     );
 }

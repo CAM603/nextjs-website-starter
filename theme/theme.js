@@ -11,4 +11,14 @@ export default {
         light: "#eeeeee",
     },
     breakpoints,
+    variants: {
+        container: {
+            width: "100%",
+            marginTop: "56px",
+            height: "80vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+        },
+    },
 };

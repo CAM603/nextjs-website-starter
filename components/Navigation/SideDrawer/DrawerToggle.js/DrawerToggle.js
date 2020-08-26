@@ -25,7 +25,7 @@ const DrawerToggleStyled = styled.div`
     div {
         width: 90%;
         height: 3px;
-        background-color: white;
+        background-color: black;
     }
 
     @media (min-width: 500px) {

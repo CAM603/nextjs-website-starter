@@ -3,7 +3,6 @@ import Link from "next/link";
 
 // Styles
 import styled from "@emotion/styled";
-import NavigationItems from "../Navigation/NavigationItems/NavigationItems";
 
 export default function Footer(props) {
     return (
@@ -13,9 +12,6 @@ export default function Footer(props) {
                     <a>Logo</a>
                 </Link>
             </div>
-            <nav>
-                <NavigationItems />
-            </nav>
             <div>
                 <p>Email</p>
                 <p>LinkedIn</p>
@@ -29,7 +25,6 @@ const FooterStyled = styled.footer`
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: black;
-    color: white;
-    padding: 20px;
+    padding: 2.2rem;
+    border-top: 1px solid #eaeaea;
 `;

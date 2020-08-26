@@ -25,7 +25,6 @@ const ListItemStyled = styled.li`
     width: 100%;
 
     a {
-        color: #8f5c2c;
         text-decoration: none;
         width: 100%;
         box-sizing: border-box;
@@ -35,7 +34,7 @@ const ListItemStyled = styled.li`
     a:hover,
     a:active,
     a.active {
-        color: yellow;
+        color: blue;
     }
 
     @media (min-width: 500px) {
@@ -46,7 +45,6 @@ const ListItemStyled = styled.li`
         align-items: center;
 
         a {
-            color: white;
             height: 100%;
             padding: 16px 10px;
             border-bottom: 4px solid transparent;
@@ -55,8 +53,8 @@ const ListItemStyled = styled.li`
         a:hover,
         a:active,
         a.active {
-            background-color: #8f5c2c;
-            border-bottom: 4px solid #40a4c8;
+            background-color: grey;
+            border-bottom: 4px solid black;
             color: white;
         }
     }

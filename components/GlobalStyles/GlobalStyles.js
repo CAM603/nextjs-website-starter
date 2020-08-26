@@ -248,11 +248,6 @@ const GlobalStyles = () => (
                     padding: 0;
                     margin: 0;
                 }
-                button {
-                    padding: 10px 25px;
-                    border-radius: 10px;
-                    min-width: 120px;
-                }
             `}
         />
     </>

@@ -6,10 +6,10 @@ import NavigationItem from "./NavigationItem/NavigationItem";
 export default function NavigationItems(props) {
     return (
         <ListStyled>
-            <NavigationItem slug="/portfolio">Portfolio</NavigationItem>
-            <NavigationItem slug="/awards">Awards</NavigationItem>
             <NavigationItem slug="/about">About</NavigationItem>
             <NavigationItem slug="/contact">Contact</NavigationItem>
+            <NavigationItem slug="/pageOne">Page 1</NavigationItem>
+            <NavigationItem slug="/pageTwo">Page 2</NavigationItem>
         </ListStyled>
     );
 }

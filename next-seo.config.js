@@ -1,17 +1,17 @@
 export default {
-    title: "Hawley Communications",
-    description: "Hawley Communications.",
+    title: "Your title here",
+    description: "Your description here",
     openGraph: {
         type: "website",
         locale: "en_IE",
         url: "",
-        site_name: "Hawley Communications",
+        site_name: "Your website name here",
         images: [
             {
                 url: "",
-                width: 32,
-                height: 32,
-                alt: "Hawley Communications",
+                width: 400,
+                height: 400,
+                alt: "",
             },
         ],
     },

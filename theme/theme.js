@@ -20,8 +20,5 @@ export default {
             justifyContent: "center",
             alignItems: "center",
         },
-        container: {
-            maxWidth: 1200,
-        },
     },
 };

@@ -6,13 +6,17 @@ import styled from "@emotion/styled";
 export default function Contact() {
     return (
         <Layout>
-            <PageStyled>
+            <ContactStyled>
                 <h1>Contact</h1>
-            </PageStyled>
+            </ContactStyled>
         </Layout>
     );
 }
 
-const PageStyled = styled.div`
-    max-width: 800px;
+const ContactStyled = styled.section`
+    max-width: 1200px;
+
+    h1 {
+        font-size: 3rem;
+    }
 `;

@@ -3,17 +3,17 @@ import Layout from "../hoc/Layout/Layout";
 // Styles
 import styled from "@emotion/styled";
 
-export default function Home() {
+export default function Contact() {
     return (
         <Layout>
-            <HomeStyled>
-                <h1>Hello World</h1>
-            </HomeStyled>
+            <ContactStyled>
+                <h1>Contact</h1>
+            </ContactStyled>
         </Layout>
     );
 }
 
-const HomeStyled = styled.section`
+const ContactStyled = styled.section`
     max-width: 1200px;
 
     h1 {

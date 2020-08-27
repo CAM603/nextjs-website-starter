@@ -1,4 +1,8 @@
-## Next.js Website Starter
+# Next.js Website Starter
+
+## 🚧 ALERT 🚧
+
+#### This is a work in progress and is not ready to be used
 
 Every good website needs some boilerplate items. At the very least a header and footer. This is a Next.js Starter that let's you hit the ground running for your next project.
 

@@ -22,6 +22,7 @@ const ListStyled = styled.ul`
     align-items: center;
     flex-flow: column;
     height: 100%;
+    width: 100%;
 
     @media (min-width: 500px) {
         flex-flow: row;

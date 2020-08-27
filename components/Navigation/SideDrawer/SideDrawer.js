@@ -6,9 +6,9 @@ import Backdrop from "../../UI/Backdrop/Backdrop";
 import styled from "@emotion/styled";
 
 export default function SideDrawer(props) {
-    let attachedClasses = ["SideDrawer", "Close"];
+    let attachedClasses = ["sideDrawer", "close"];
     if (props.open) {
-        attachedClasses = ["SideDrawer", "Open"];
+        attachedClasses = ["sideDrawer", "ppen"];
     }
     return (
         <Aux>
@@ -26,7 +26,7 @@ export default function SideDrawer(props) {
 }
 
 const SideDrawerStyled = styled.div`
-    .SideDrawer {
+    .sideDrawer {
         position: fixed;
         width: 280px;
         max-width: 70%;
@@ -41,16 +41,16 @@ const SideDrawerStyled = styled.div`
     }
 
     @media (min-width: 500px) {
-        .SideDrawer {
+        .sideDrawer {
             display: none;
         }
     }
 
-    .Open {
+    .open {
         transform: translateX(0);
     }
 
-    .Close {
+    .close {
         transform: translateX(-100%);
     }
 

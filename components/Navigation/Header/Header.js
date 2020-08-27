@@ -1,11 +1,10 @@
 // Tools
 import Link from "next/link";
-
 // Components
 import DrawerToggle from "../SideDrawer/DrawerToggle.js/DrawerToggle";
+import NavigationItems from "../NavigationItems/NavigationItems";
 // Styles
 import styled from "@emotion/styled";
-import NavigationItems from "../NavigationItems/NavigationItems";
 
 export default function Header(props) {
     return (

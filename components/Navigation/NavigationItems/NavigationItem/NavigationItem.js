@@ -34,11 +34,11 @@ const ListItemStyled = styled.li`
     a:hover,
     a:active,
     a.active {
-        color: blue;
+        font-weight: bold;
     }
 
     @media (min-width: 500px) {
-        margin: 0;
+        margin: 0 10px;
         display: flex;
         height: 100%;
         width: auto;
@@ -53,9 +53,7 @@ const ListItemStyled = styled.li`
         a:hover,
         a:active,
         a.active {
-            background-color: grey;
             border-bottom: 4px solid black;
-            color: white;
         }
     }
 `;
